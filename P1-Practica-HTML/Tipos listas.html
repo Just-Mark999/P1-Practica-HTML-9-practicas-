@@ -1,33 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tipos de listas en HTML</title>
-</head>
-<body>
-    <h1>Tipos de listas</h1>
-    <h2>Listas ordenadas</h2>
-    <p>Una lista ordenada es una serie de elementos los cuales 
+<!DOCTYPE html> <!--Define el docmuento como HTML 5 para que funcione en el navegador -->
+<html lang="en"> <!-- Raiz o etiqueta que envuelve el documento y define el idioma con ingles (ENglish) -->
+<head> <!-- Etiqueta que contiene informacion no visible para la pagina -->
+    <meta charset="UTF-8"> <!-- Establece la codificacion de caracteres a UTF-8 para admitir acentos y la Ñ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que la pagina ajuste el ancho de la pagina a la pantalla del dispositivo correspondiente -->
+    <title>Tipos de listas en HTML</title> <!-- Define el titulo que aparecera en la pestaña del navegador -->
+</head> <!-- Etiqueta que cierra la seccion de inforacion de configuracion no visible -->
+<body> <!-- Etiqueta del contenedor principal para todo el contenido visible en la pagina web -->
+    <h1>Tipos de listas</h1> <!-- Etiqueta con titulo de nivel 1 que funciona como encabezado de la pagina -->
+    <h2>Listas ordenadas</h2> <!-- Etiqueta con titulo de nivel 2 que funciona como subtitulo -->
+    <p> <!-- Etiqueta que abre un parrafo de texto -->
+        Una lista ordenada es una serie de elementos los cuales 
         tendran una numeracion de acuerdo al numeros de elementos.
-    </p>
-    <ol>
-        <li>Luna Arias </li>
-        <li>Franco Andrea</li>
-        <li>Granados Evelyn</li>
-    </ol>
-    <h2>Listas no ordenadas</h2>
-    <p>Las listas no ordenadas no utilizan ninguna numeracion delante 
+    </p> <!-- Etiqueta que cierr aun parrafo de texto -->
+    <ol> <!-- Etiqueta que abre una lista ordenada de elementos -->
+        <li>Luna Arias </li> <!-- Etiqueta que abre y cierra la definicion de un elemento de una lista -->
+        <li>Franco Andrea</li> <!-- Etiqueta que abre y cierra la definicion de un elemento de una lista -->
+        <li>Granados Evelyn</li> <!-- Etiqueta que abre y cierra la definicion de un elemento de una lista -->
+    </ol> <!-- Etiqueta que cierra una lista ordenada de elementos -->
+    <h2>Listas no ordenadas</h2> <!-- Etiqueta con titulo de nivel 2 que funciona como sibtitulo -->
+    <p> <!-- Etiqueta que abre un parrafo de texto -->
+        Las listas no ordenadas no utilizan ninguna numeracion delante 
         de cada item sino un pequeño elemento grafico
-    </p>
-    <ul>
-        <li>C</li>
-        <li>C++</li>
-        <li>Python</li>
-    </ul>
-    <h2>Lista de definiciones</h2>
-    <p>Se utiliza para asociar un termino y la definicion del mismo</p>
-    <dl>
+    </p> <!-- Etiqueta que cierra un parrafo de texto -->
+    <ul> <!-- Etiqueta que abre una lista no ordenada -->
+        <li>C</li> <!-- Etiqueta que abre y cierra la definicion de un elemento de una lista -->
+        <li>C++</li> <!-- Etiqueta que abre y cierra la definicion de un elemento de una lista -->
+        <li>Python</li> <!-- Etiqueta que abre y cierra la definicion de un elemento de una lista -->
+    </ul> <!-- Etiqueta que cierra una lista no ordenbada -->
+    <h2>Lista de definiciones</h2> <!-- Etiqueta con titulo de nivel 2 que funciona como sibtitulo -->
+    <p>Se utiliza para asociar un termino y la definicion del mismo</p> <!-- Etiqueta que abre y cierra un parrafo de texto -->
+    <dl> <!-- Etiqueta que abre una lista de descripcones -->
         <!-- Primer termino-->
         <dt>C++</dt>
         <!-- Definicion del primer termino-->
@@ -50,33 +52,34 @@
             utilizado principalmente en paginas web, con una sintaxis similar
             al lenguaje de programacion C.
         </dd>
-    </dl>
-    <h2>Listas anidadas</h2>
-    <p>En HTML nos permite insertar una lista dentro de otra lista, se pueden
+    </dl> <!-- Etiqueta que cierra una lista de descripciones -->
+    <h2>Listas anidadas</h2> <!-- Etiqueta con titulo de nivel 2 que funciona como sibtitulo -->
+    <p> <!-- Etiqueta que abre un parrafo de texto -->
+        En HTML nos permite insertar una lista dentro de otra lista, se pueden
         anidar diferentes tipos de lista de acuerdo al requerimiento
-    </p>
-    <ol>
-        <li>Argentina
-            <ul>
-                <li>Buenos aires</li>
-                <li>La plata</li>
-                <li>Mendoza</li>
-            </ul>
-        </li>
-        <li>España
-            <ul>
-                <li>Barcelona</li>
-                <li>Madrid</li>
-                <li>Sevilla</li>
-            </ul>
-        </li>
-        <li>Mexico
-            <ul>
-                <li>Chihuahua</li>
-                <li>Cd. Juarez</li>
-                <li>Hermosillo</li>
-            </ul>
-        </li>
-    </ol>
-</body>
-</html>
+    </p> <!-- Etiqueta que cierra un parrafo de texto -->
+    <ol> <!-- Etiqueta que abre una lista ordenada de elemento s-->
+        <li>Argentina <!-- Etiqueta que abre la definicion de un elemento de una lista -->
+            <ul> <!-- Etiqueta que abre una lista no ordenada -->
+                <li>Buenos aires</li> <!-- Etiqueta que abre y cierra la definicion del elemento de una lista -->
+                <li>La plata</li> <!-- Etiqueta que abre y cierra la definicion del elemento de una lista -->
+                <li>Mendoza</li> <!-- Etiqueta que abre y cierra la definicion del elemento de una lista -->
+            </ul> <!-- Etiqueta que cierra una lista no ordenada -->
+        </li> <!-- Etiqueta que cierra la definicion de un elemento de una lista -->
+        <li>España <!-- Etiqueta que abre la definicion de un elemento de una lista -->
+            <ul> <!-- Etiqueta que abre una lista no ordenada -->
+                <li>Barcelona</li> <!-- Etiqueta que abre y cierra la definicion del elemento de una lista -->
+                <li>Madrid</li> <!-- Etiqueta que abre y cierra la definicion del elemento de una lista -->
+                <li>Sevilla</li> <!-- Etiqueta que abre y cierra la definicion del elemento de una lista -->
+            </ul> <!-- Etiqueta que cierra una lista no ordenada -->
+        </li> <!-- Etiqueta que cierra la definicion de un elemento de una lista -->
+        <li>Mexico <!-- Etiqueta que abre la definicion de un elemento de una lista -->
+            <ul> <!-- Etiqueta que abre una lista no ordenada -->
+                <li>Chihuahua</li> <!-- Etiqueta que abre y cierra la definicion del elemento de una lista -->
+                <li>Cd. Juarez</li> <!-- Etiqueta que abre y cierra la definicion del elemento de una lista -->
+                <li>Hermosillo</li> <!-- Etiqueta que abre y cierra la definicion del elemento de una lista -->
+            </ul> <!-- Etiqueta que cierra una lista no ordenada -->
+        </li> <!-- Etiqueta que cierra la definicion de un elemento de una lista -->
+    </ol> <!-- Etiqueta que cierra una lista ordenada de elementos -->
+</body> <!-- Cierre del contenerdor principal para todo el contenido visible en la pagina web -->
+</html> <!-- Cierre de la raiz que envuelve todo el documento HTML -->
